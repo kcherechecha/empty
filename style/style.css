@@ -1,0 +1,96 @@
+.containerr {
+  font-family: "Montserrat", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 6px;
+  max-width: 600px;
+  margin: 10px auto;
+  width: 80%;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.upper-wrap {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  margin: 20px auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.background {
+  opacity: 0.4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.upper {
+  position: relative;
+  margin: 10px auto;
+}
+
+.search-row {
+  display: flex;
+  padding: 15px 80px;
+  gap: 10px;
+}
+
+.search-bar {
+  border-radius: 20px !important;
+  font-size: 14px !important;
+  position: fixed;
+}
+
+.search-button {
+  border-radius: 20px !important;
+  font-size: 14px !important;
+}
+
+.city-name {
+  font-size: 45px;
+  margin: 5px auto;
+  text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.condition {
+  margin: 5px auto;
+}
+
+.temperature {
+  font-weight: 400 !important;
+  font-size: 32px;
+  margin: 20px auto;
+}
+.down {
+  margin: 20px auto;
+}
+
+.weekday,
+.temperatures,
+.icon {
+  text-align: center;
+}
+
+.icon {
+  margin: 5px auto;
+}
+
+.weekday,
+.temperatures {
+  font-size: 15px;
+}
+.forecast {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* added */
+.current-button {
+  border-radius: 20px !important;
+  font-size: 10px !important;
+  position: absolute;
+  left: 445px;
+  right: 75px;
+  top: 60px;
+}
